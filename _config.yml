@@ -143,3 +143,12 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-spaceship
+
+# Jekyll Spaceship - Mermaid configuration
+jekyll-spaceship:
+  mermaid-processor:
+    mode: default
+    css:
+      class: mermaid
+    config:
+      theme: dark
