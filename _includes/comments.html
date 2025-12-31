@@ -1,13 +1,21 @@
-<!-- Disqus Comments Start -->
+<!-- Giscus Comments -->
 
-{% if site.disqus-shortname %}
-  <div id="disqus_thread"></div>
-  <noscript>
-    Please enable JavaScript to view the
-    <a href="https://disqus.com/?ref_noscript" rel="nofollow">
-      comments powered by Disqus.
-    </a>
-  </noscript>
+{% if site.giscus %}
+<div id="comments" class="pt-4">
+  <script src="https://giscus.app/client.js"
+          data-repo="{{ site.giscus.repo }}"
+          data-repo-id="{{ site.giscus.repo-id }}"
+          data-category="{{ site.giscus.category }}"
+          data-category-id="{{ site.giscus.category-id }}"
+          data-mapping="pathname"
+          data-strict="0"
+          data-reactions-enabled="0"
+          data-emit-metadata="0"
+          data-input-position="bottom"
+          data-theme="transparent_dark"
+          data-lang="en"
+          crossorigin="anonymous"
+          async>
+  </script>
+</div>
 {% endif %}
-
-<!-- Disqus Comments End -->

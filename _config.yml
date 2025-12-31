@@ -58,7 +58,14 @@ pinterest-share: True
 pocket-share: True
 vkontakte-share: True
 
-disqus-shortname: "personal-jekyll-theme"
+# disqus-shortname: "personal-jekyll-theme"  # Disabled - using Giscus instead
+
+# Giscus Comments (GitHub Discussions)
+giscus:
+  repo: "grechman2/grechman2.github.io"
+  repo-id: "R_kgDOQx0qgQ"
+  category: "Announcements"
+  category-id: "DIC_kwDOQx0qgc4C0cCs"
 
 ############
 # Timeline #
