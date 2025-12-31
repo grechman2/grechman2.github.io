@@ -690,3 +690,44 @@ body {
   margin-left: auto; /* Center the block */
   margin-right: auto; /* Center the block */
 }
+
+/* Force small share buttons - override RRSSB JavaScript */
+.rrssb-buttons {
+  height: 32px !important;
+  display: flex !important;
+  justify-content: center !important;
+  gap: 8px !important;
+
+  li {
+    width: auto !important;
+    height: auto !important;
+    float: none !important;
+
+    a {
+      padding: 6px !important;
+      background-color: transparent !important;
+      border-radius: 4px !important;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.1) !important;
+      }
+
+      .rrssb-text {
+        display: none !important;
+      }
+
+      .rrssb-icon {
+        position: relative !important;
+        left: auto !important;
+        top: auto !important;
+        padding: 0 !important;
+        width: auto !important;
+
+        svg {
+          height: 20px !important;
+          width: 20px !important;
+        }
+      }
+    }
+  }
+}
