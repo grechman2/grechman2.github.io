@@ -691,6 +691,14 @@ body {
   margin-right: auto; /* Center the block */
 }
 
+/* Limit Mermaid diagram size */
+img.mermaid {
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+}
+
 /* Force small share buttons - override RRSSB JavaScript */
 .rrssb-buttons {
   height: 32px !important;

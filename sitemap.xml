@@ -31,7 +31,7 @@ layout: null
       {% endif %}
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
-    </url>
+</url>
   {% endfor %}
   {% for tag in site.tags %}
     <url>
