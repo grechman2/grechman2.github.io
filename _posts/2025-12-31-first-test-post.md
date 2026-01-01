@@ -9,7 +9,7 @@ tags: ["tutorial"]
 
 ## Sequence diagram (simple)
 
-This diagram shows how Actor A talks to Actor B:
+This diagram shows how Actor A talks to Actor B (example):
 
 ```mermaid!
 sequenceDiagram
