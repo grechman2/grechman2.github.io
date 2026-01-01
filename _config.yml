@@ -124,6 +124,7 @@ social:
 pages_list:
   About: "about"
   Blog: "latest-post"
+  Tags: "tags"
   Timeline: "timeline"
   Contact: "contact"
 # Exclusion list from the generated _site
