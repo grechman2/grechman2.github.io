@@ -151,4 +151,17 @@ jekyll-spaceship:
     css:
       class: mermaid
     config:
-      theme: dark
+      theme: base
+      themeVariables:
+        background: transparent
+        primaryColor: '#3b82f6'
+        primaryTextColor: '#ffffff'
+        primaryBorderColor: '#60a5fa'
+        lineColor: '#22d3ee'
+        textColor: '#e2e8f0'
+        actorBkg: '#1e3a5f'
+        actorBorder: '#60a5fa'
+        actorTextColor: '#ffffff'
+        actorLineColor: '#22d3ee'
+        signalColor: '#22d3ee'
+        signalTextColor: '#ffffff'

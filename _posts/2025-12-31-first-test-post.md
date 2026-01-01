@@ -2,7 +2,7 @@
 layout: post
 section-type: post
 has-comments: true
-title: Welcome to { Personal } Jekyll Theme!
+title: Example post for testing
 category: tech
 tags: ["tutorial"]
 ---
